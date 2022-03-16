@@ -1,0 +1,17 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+
+.mainContent {
+  color: aqua;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.mainContent > h1 {
+  font-size: 50px;
+}
