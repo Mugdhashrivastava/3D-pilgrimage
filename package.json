@@ -18,7 +18,15 @@
   },
   "homepage": "https://github.com/ArpitBirSingh/Indian-pilgrimages#readme",
   "dependencies": {
+    "alert": "^5.0.10",
+    "bcrypt": "^5.0.1",
+    "ejs": "^3.1.6",
     "express": "^4.17.3",
+    "html": "^1.0.0",
+    "jade": "^1.11.0",
+    "md5": "^2.3.0",
+    "mongoose": "^6.2.7",
+    "popups": "^1.1.3",
     "three": "^0.138.3"
   }
 }

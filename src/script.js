@@ -2,8 +2,8 @@ let scene, camera, renderer, controls;
 
 function init() {
   scene = new THREE.Scene();
-  scene.background = new THREE.Color(0x000000);
-
+  scene.background = new THREE.Color('black');
+  // 0x000000
   camera = new THREE.PerspectiveCamera(
     40,
     window.innerWidth / window.innerHeight,
@@ -64,7 +64,7 @@ function init() {
 }
 
 function animate() {
-  car.rotation.z -= 0.01;
+  car.rotation.z -= 0.001;
   renderer.render(scene, camera);
   requestAnimationFrame(animate);
 }

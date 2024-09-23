@@ -2,7 +2,6 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
   }
 
 .mainContent {
@@ -14,4 +13,100 @@ body {
 
 .mainContent > h1 {
   font-size: 50px;
+}
+
+.navbar1{
+  overflow: hidden;
+  position: fixed;
+
+  width: 100vw; 
+  color: white!important;
+  background-color: black;
+}
+
+.lo{
+  
+  position: absolute;
+    right: 10rem;
+}
+
+.signup{
+  position: absolute;
+    right: 5rem;
+}
+
+.social{
+ position: fixed;
+ bottom: 10vh;
+ left: 2vw;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ height: 10rem;
+}
+
+.chatbot{
+  position: fixed;
+    right: 2vw;
+    bottom: 10vh;
+}
+
+
+.desc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top:3rem;
+}
+
+.desc div{
+  width:75%;
+}
+
+.fa-facebook:hover{
+  color: #4867aa;
+}
+
+.fa-twitter:hover{
+  color: #1d9bf0;
+}
+
+.fa-instagram:hover{
+  color: #de437f;
+}
+
+.fa-linkedin:hover{
+  color: #0077b5;
+}
+
+.fa-comment:hover{
+  color: #40dd59;
+}
+
+.social i,.chatbot i{
+  color : white;
+}
+
+.navbar1 a:hover{
+ color:#1d9bf0!important;
+}
+
+
+
+
+
+
+
+
+@media(max-width:990px){
+.lo{
+  position: relative;
+  left: 0rem;
+}
+
+.signup{
+  position: relative;
+  left: 0rem;
+}
 }
